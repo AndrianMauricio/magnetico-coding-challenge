@@ -1,0 +1,862 @@
+[
+  {
+    "formulation_id": 1,
+    "ingredient_id": 7,
+    "percentage": 10
+  },
+  {
+    "formulation_id": 1,
+    "ingredient_id": 25,
+    "percentage": 5
+  },
+  {
+    "formulation_id": 1,
+    "ingredient_id": 20,
+    "percentage": 2
+  },
+  {
+    "formulation_id": 1,
+    "ingredient_id": 26,
+    "percentage": 0.03
+  },
+  {
+    "formulation_id": 2,
+    "ingredient_id": 8,
+    "percentage": 4
+  },
+  {
+    "formulation_id": 2,
+    "ingredient_id": 20,
+    "percentage": 4
+  },
+  {
+    "formulation_id": 2,
+    "ingredient_id": 10,
+    "percentage": 1
+  },
+  {
+    "formulation_id": 2,
+    "ingredient_id": 16,
+    "percentage": 1
+  },
+  {
+    "formulation_id": 3,
+    "ingredient_id": 14,
+    "percentage": 2
+  },
+  {
+    "formulation_id": 3,
+    "ingredient_id": 2,
+    "percentage": 2
+  },
+  {
+    "formulation_id": 3,
+    "ingredient_id": 16,
+    "percentage": 1
+  },
+  {
+    "formulation_id": 3,
+    "ingredient_id": 1,
+    "percentage": 1
+  },
+  {
+    "formulation_id": 3,
+    "ingredient_id": 26,
+    "percentage": 0.05
+  },
+  {
+    "formulation_id": 4,
+    "ingredient_id": 20,
+    "percentage": 4
+  },
+  {
+    "formulation_id": 4,
+    "ingredient_id": 3,
+    "percentage": 1
+  },
+  {
+    "formulation_id": 4,
+    "ingredient_id": 13,
+    "percentage": 1
+  },
+  {
+    "formulation_id": 4,
+    "ingredient_id": 26,
+    "percentage": 0.03
+  },
+  {
+    "formulation_id": 5,
+    "ingredient_id": 25,
+    "percentage": 5
+  },
+  {
+    "formulation_id": 5,
+    "ingredient_id": 20,
+    "percentage": 4
+  },
+  {
+    "formulation_id": 5,
+    "ingredient_id": 19,
+    "percentage": 1
+  },
+  {
+    "formulation_id": 5,
+    "ingredient_id": 16,
+    "percentage": 1
+  },
+  {
+    "formulation_id": 6,
+    "ingredient_id": 17,
+    "percentage": 5
+  },
+  {
+    "formulation_id": 6,
+    "ingredient_id": 4,
+    "percentage": 2
+  },
+  {
+    "formulation_id": 6,
+    "ingredient_id": 2,
+    "percentage": 2
+  },
+  {
+    "formulation_id": 6,
+    "ingredient_id": 3,
+    "percentage": 1
+  },
+  {
+    "formulation_id": 6,
+    "ingredient_id": 16,
+    "percentage": 1
+  },
+  {
+    "formulation_id": 6,
+    "ingredient_id": 26,
+    "percentage": 0.05
+  },
+  {
+    "formulation_id": 7,
+    "ingredient_id": 15,
+    "percentage": 4
+  },
+  {
+    "formulation_id": 7,
+    "ingredient_id": 26,
+    "percentage": 0.1
+  },
+  {
+    "formulation_id": 7,
+    "ingredient_id": 16,
+    "percentage": 1
+  },
+  {
+    "formulation_id": 7,
+    "ingredient_id": 14,
+    "percentage": 1
+  },
+  {
+    "formulation_id": 7,
+    "ingredient_id": 31,
+    "percentage": 2
+  },
+  {
+    "formulation_id": 8,
+    "ingredient_id": 17,
+    "percentage": 4
+  },
+  {
+    "formulation_id": 8,
+    "ingredient_id": 15,
+    "percentage": 4
+  },
+  {
+    "formulation_id": 8,
+    "ingredient_id": 16,
+    "percentage": 1
+  },
+  {
+    "formulation_id": 8,
+    "ingredient_id": 26,
+    "percentage": 0.03
+  },
+  {
+    "formulation_id": 9,
+    "ingredient_id": 7,
+    "percentage": 10
+  },
+  {
+    "formulation_id": 9,
+    "ingredient_id": 17,
+    "percentage": 4
+  },
+  {
+    "formulation_id": 9,
+    "ingredient_id": 13,
+    "percentage": 2
+  },
+  {
+    "formulation_id": 9,
+    "ingredient_id": 3,
+    "percentage": 1
+  },
+  {
+    "formulation_id": 10,
+    "ingredient_id": 20,
+    "percentage": 3
+  },
+  {
+    "formulation_id": 10,
+    "ingredient_id": 17,
+    "percentage": 3
+  },
+  {
+    "formulation_id": 10,
+    "ingredient_id": 15,
+    "percentage": 2
+  },
+  {
+    "formulation_id": 10,
+    "ingredient_id": 5,
+    "percentage": 2
+  },
+  {
+    "formulation_id": 10,
+    "ingredient_id": 6,
+    "percentage": 2
+  },
+  {
+    "formulation_id": 10,
+    "ingredient_id": 14,
+    "percentage": 2
+  },
+  {
+    "formulation_id": 10,
+    "ingredient_id": 1,
+    "percentage": 1
+  },
+  {
+    "formulation_id": 10,
+    "ingredient_id": 16,
+    "percentage": 0.5
+  },
+  {
+    "formulation_id": 10,
+    "ingredient_id": 26,
+    "percentage": 0.03
+  },
+  {
+    "formulation_id": 11,
+    "ingredient_id": 6,
+    "percentage": 5
+  },
+  {
+    "formulation_id": 11,
+    "ingredient_id": 20,
+    "percentage": 3
+  },
+  {
+    "formulation_id": 11,
+    "ingredient_id": 14,
+    "percentage": 2
+  },
+  {
+    "formulation_id": 11,
+    "ingredient_id": 26,
+    "percentage": 0.03
+  },
+  {
+    "formulation_id": 12,
+    "ingredient_id": 25,
+    "percentage": 5
+  },
+  {
+    "formulation_id": 12,
+    "ingredient_id": 7,
+    "percentage": 5
+  },
+  {
+    "formulation_id": 12,
+    "ingredient_id": 6,
+    "percentage": 5
+  },
+  {
+    "formulation_id": 12,
+    "ingredient_id": 10,
+    "percentage": 1
+  },
+  {
+    "formulation_id": 12,
+    "ingredient_id": 14,
+    "percentage": 1
+  },
+  {
+    "formulation_id": 12,
+    "ingredient_id": 26,
+    "percentage": 0.05
+  },
+  {
+    "formulation_id": 13,
+    "ingredient_id": 15,
+    "percentage": 8
+  },
+  {
+    "formulation_id": 13,
+    "ingredient_id": 26,
+    "percentage": 0.03
+  },
+  {
+    "formulation_id": 13,
+    "ingredient_id": 16,
+    "percentage": 2
+  },
+  {
+    "formulation_id": 13,
+    "ingredient_id": 17,
+    "percentage": 4
+  },
+  {
+    "formulation_id": 14,
+    "ingredient_id": 29,
+    "percentage": 0.5
+  },
+  {
+    "formulation_id": 14,
+    "ingredient_id": 30,
+    "percentage": 3
+  },
+  {
+    "formulation_id": 14,
+    "ingredient_id": 38,
+    "percentage": 0.5
+  },
+  {
+    "formulation_id": 14,
+    "ingredient_id": 31,
+    "percentage": 2
+  },
+  {
+    "formulation_id": 14,
+    "ingredient_id": 28,
+    "percentage": 3
+  },
+  {
+    "formulation_id": 14,
+    "ingredient_id": 32,
+    "percentage": 1
+  },
+  {
+    "formulation_id": 14,
+    "ingredient_id": 33,
+    "percentage": 1
+  },
+  {
+    "formulation_id": 15,
+    "ingredient_id": 29,
+    "percentage": 0.5
+  },
+  {
+    "formulation_id": 15,
+    "ingredient_id": 38,
+    "percentage": 0.5
+  },
+  {
+    "formulation_id": 15,
+    "ingredient_id": 31,
+    "percentage": 2
+  },
+  {
+    "formulation_id": 15,
+    "ingredient_id": 28,
+    "percentage": 3
+  },
+  {
+    "formulation_id": 15,
+    "ingredient_id": 34,
+    "percentage": 0.3
+  },
+  {
+    "formulation_id": 15,
+    "ingredient_id": 32,
+    "percentage": 1
+  },
+  {
+    "formulation_id": 15,
+    "ingredient_id": 20,
+    "percentage": 3
+  },
+  {
+    "formulation_id": 15,
+    "ingredient_id": 35,
+    "percentage": 0.01
+  },
+  {
+    "formulation_id": 16,
+    "ingredient_id": 25,
+    "percentage": 8
+  },
+  {
+    "formulation_id": 16,
+    "ingredient_id": 21,
+    "percentage": 3
+  },
+  {
+    "formulation_id": 16,
+    "ingredient_id": 20,
+    "percentage": 2
+  },
+  {
+    "formulation_id": 16,
+    "ingredient_id": 23,
+    "percentage": 2
+  },
+  {
+    "formulation_id": 16,
+    "ingredient_id": 13,
+    "percentage": 1
+  },
+  {
+    "formulation_id": 16,
+    "ingredient_id": 27,
+    "percentage": 0.1
+  },
+  {
+    "formulation_id": 17,
+    "ingredient_id": 2,
+    "percentage": 2
+  },
+  {
+    "formulation_id": 17,
+    "ingredient_id": 3,
+    "percentage": 2
+  },
+  {
+    "formulation_id": 17,
+    "ingredient_id": 16,
+    "percentage": 1.5
+  },
+  {
+    "formulation_id": 17,
+    "ingredient_id": 10,
+    "percentage": 1
+  },
+  {
+    "formulation_id": 17,
+    "ingredient_id": 26,
+    "percentage": 0.05
+  },
+  {
+    "formulation_id": 18,
+    "ingredient_id": 36,
+    "percentage": 3
+  },
+  {
+    "formulation_id": 18,
+    "ingredient_id": 3,
+    "percentage": 2
+  },
+  {
+    "formulation_id": 18,
+    "ingredient_id": 31,
+    "percentage": 2
+  },
+  {
+    "formulation_id": 18,
+    "ingredient_id": 13,
+    "percentage": 2
+  },
+  {
+    "formulation_id": 18,
+    "ingredient_id": 27,
+    "percentage": 0.1
+  },
+  {
+    "formulation_id": 18,
+    "ingredient_id": 16,
+    "percentage": 2
+  },
+  {
+    "formulation_id": 18,
+    "ingredient_id": 29,
+    "percentage": 0.5
+  },
+  {
+    "formulation_id": 19,
+    "ingredient_id": 7,
+    "percentage": 10
+  },
+  {
+    "formulation_id": 19,
+    "ingredient_id": 20,
+    "percentage": 2
+  },
+  {
+    "formulation_id": 19,
+    "ingredient_id": 19,
+    "percentage": 0.75
+  },
+  {
+    "formulation_id": 20,
+    "ingredient_id": 39,
+    "percentage": 0.05
+  },
+  {
+    "formulation_id": 20,
+    "ingredient_id": 15,
+    "percentage": 6
+  },
+  {
+    "formulation_id": 20,
+    "ingredient_id": 32,
+    "percentage": 1
+  },
+  {
+    "formulation_id": 20,
+    "ingredient_id": 3,
+    "percentage": 2
+  },
+  {
+    "formulation_id": 20,
+    "ingredient_id": 13,
+    "percentage": 2
+  },
+  {
+    "formulation_id": 21,
+    "ingredient_id": 27,
+    "percentage": 0.1
+  },
+  {
+    "formulation_id": 21,
+    "ingredient_id": 16,
+    "percentage": 2
+  },
+  {
+    "formulation_id": 21,
+    "ingredient_id": 14,
+    "percentage": 2
+  },
+  {
+    "formulation_id": 21,
+    "ingredient_id": 28,
+    "percentage": 3
+  },
+  {
+    "formulation_id": 21,
+    "ingredient_id": 2,
+    "percentage": 2
+  },
+  {
+    "formulation_id": 21,
+    "ingredient_id": 1,
+    "percentage": 2
+  },
+  {
+    "formulation_id": 22,
+    "ingredient_id": 25,
+    "percentage": 5
+  },
+  {
+    "formulation_id": 22,
+    "ingredient_id": 7,
+    "percentage": 5
+  },
+  {
+    "formulation_id": 22,
+    "ingredient_id": 10,
+    "percentage": 1
+  },
+  {
+    "formulation_id": 22,
+    "ingredient_id": 14,
+    "percentage": 1
+  },
+  {
+    "formulation_id": 22,
+    "ingredient_id": 26,
+    "percentage": 0.1
+  },
+  {
+    "formulation_id": 22,
+    "ingredient_id": 16,
+    "percentage": 1
+  },
+  {
+    "formulation_id": 23,
+    "ingredient_id": 36,
+    "percentage": 3
+  },
+  {
+    "formulation_id": 23,
+    "ingredient_id": 3,
+    "percentage": 2
+  },
+  {
+    "formulation_id": 23,
+    "ingredient_id": 32,
+    "percentage": 1
+  },
+  {
+    "formulation_id": 23,
+    "ingredient_id": 13,
+    "percentage": 2
+  },
+  {
+    "formulation_id": 23,
+    "ingredient_id": 21,
+    "percentage": 3
+  },
+  {
+    "formulation_id": 23,
+    "ingredient_id": 20,
+    "percentage": 3
+  },
+  {
+    "formulation_id": 24,
+    "ingredient_id": 29,
+    "percentage": 0.5
+  },
+  {
+    "formulation_id": 24,
+    "ingredient_id": 30,
+    "percentage": 3
+  },
+  {
+    "formulation_id": 24,
+    "ingredient_id": 31,
+    "percentage": 2
+  },
+  {
+    "formulation_id": 24,
+    "ingredient_id": 28,
+    "percentage": 3
+  },
+  {
+    "formulation_id": 24,
+    "ingredient_id": 32,
+    "percentage": 1
+  },
+  {
+    "formulation_id": 24,
+    "ingredient_id": 33,
+    "percentage": 1
+  },
+  {
+    "formulation_id": 24,
+    "ingredient_id": 26,
+    "percentage": 0.03
+  },
+  {
+    "formulation_id": 24,
+    "ingredient_id": 20,
+    "percentage": 3
+  },
+  {
+    "formulation_id": 25,
+    "ingredient_id": 29,
+    "percentage": 0.5
+  },
+  {
+    "formulation_id": 25,
+    "ingredient_id": 22,
+    "percentage": 2
+  },
+  {
+    "formulation_id": 25,
+    "ingredient_id": 31,
+    "percentage": 2
+  },
+  {
+    "formulation_id": 25,
+    "ingredient_id": 28,
+    "percentage": 3
+  },
+  {
+    "formulation_id": 25,
+    "ingredient_id": 34,
+    "percentage": 0.3
+  },
+  {
+    "formulation_id": 25,
+    "ingredient_id": 32,
+    "percentage": 1
+  },
+  {
+    "formulation_id": 25,
+    "ingredient_id": 20,
+    "percentage": 3
+  },
+  {
+    "formulation_id": 25,
+    "ingredient_id": 35,
+    "percentage": 0.01
+  },
+  {
+    "formulation_id": 25,
+    "ingredient_id": 26,
+    "percentage": 0.03
+  },
+  {
+    "formulation_id": 26,
+    "ingredient_id": 13,
+    "percentage": 1
+  },
+  {
+    "formulation_id": 26,
+    "ingredient_id": 20,
+    "percentage": 4
+  },
+  {
+    "formulation_id": 26,
+    "ingredient_id": 26,
+    "percentage": 0.03
+  },
+  {
+    "formulation_id": 26,
+    "ingredient_id": 3,
+    "percentage": 1
+  },
+  {
+    "formulation_id": 27,
+    "ingredient_id": 7,
+    "percentage": 10
+  },
+  {
+    "formulation_id": 27,
+    "ingredient_id": 17,
+    "percentage": 4
+  },
+  {
+    "formulation_id": 27,
+    "ingredient_id": 13,
+    "percentage": 2
+  },
+  {
+    "formulation_id": 27,
+    "ingredient_id": 3,
+    "percentage": 1
+  },
+  {
+    "formulation_id": 27,
+    "ingredient_id": 16,
+    "percentage": 1
+  },
+  {
+    "formulation_id": 28,
+    "ingredient_id": 15,
+    "percentage": 8
+  },
+  {
+    "formulation_id": 28,
+    "ingredient_id": 26,
+    "percentage": 0.03
+  },
+  {
+    "formulation_id": 28,
+    "ingredient_id": 16,
+    "percentage": 2
+  },
+  {
+    "formulation_id": 28,
+    "ingredient_id": 17,
+    "percentage": 4
+  },
+  {
+    "formulation_id": 28,
+    "ingredient_id": 36,
+    "percentage": 3
+  },
+  {
+    "formulation_id": 29,
+    "ingredient_id": 19,
+    "percentage": 1
+  },
+  {
+    "formulation_id": 29,
+    "ingredient_id": 20,
+    "percentage": 4
+  },
+  {
+    "formulation_id": 29,
+    "ingredient_id": 16,
+    "percentage": 1
+  },
+  {
+    "formulation_id": 29,
+    "ingredient_id": 7,
+    "percentage": 5
+  },
+  {
+    "formulation_id": 30,
+    "ingredient_id": 2,
+    "percentage": 1
+  },
+  {
+    "formulation_id": 30,
+    "ingredient_id": 12,
+    "percentage": 6
+  },
+  {
+    "formulation_id": 30,
+    "ingredient_id": 16,
+    "percentage": 1
+  },
+  {
+    "formulation_id": 30,
+    "ingredient_id": 14,
+    "percentage": 2
+  },
+  {
+    "formulation_id": 30,
+    "ingredient_id": 1,
+    "percentage": 1
+  },
+  {
+    "formulation_id": 31,
+    "ingredient_id": 15,
+    "percentage": 4
+  },
+  {
+    "formulation_id": 31,
+    "ingredient_id": 16,
+    "percentage": 1
+  },
+  {
+    "formulation_id": 31,
+    "ingredient_id": 17,
+    "percentage": 4
+  },
+  {
+    "formulation_id": 31,
+    "ingredient_id": 36,
+    "percentage": 1
+  },
+  {
+    "formulation_id": 31,
+    "ingredient_id": 12,
+    "percentage": 5
+  },
+  {
+    "formulation_id": 32,
+    "ingredient_id": 23,
+    "percentage": 2
+  },
+  {
+    "formulation_id": 32,
+    "ingredient_id": 20,
+    "percentage": 3
+  },
+  {
+    "formulation_id": 32,
+    "ingredient_id": 37,
+    "percentage": 2
+  },
+  {
+    "formulation_id": 32,
+    "ingredient_id": 13,
+    "percentage": 1
+  },
+  {
+    "formulation_id": 32,
+    "ingredient_id": 27,
+    "percentage": 0.1
+  }
+]

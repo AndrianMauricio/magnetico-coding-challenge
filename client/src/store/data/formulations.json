@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "name": "Acne: mild inflammatory"
+  },
+  {
+    "id": 2,
+    "name": "Acne: inflammatory"
+  },
+  {
+    "id": 3,
+    "name": "Acne: comedonal"
+  },
+  {
+    "id": 4,
+    "name": "Rhytides/poikiloderma (sensitive)"
+  },
+  {
+    "id": 5,
+    "name": "Rosacea/baseline erythema"
+  },
+  {
+    "id": 6,
+    "name": "Lentigines 1"
+  },
+  {
+    "id": 7,
+    "name": "Lentigines 2"
+  },
+  {
+    "id": 8,
+    "name": "Melasma 1"
+  },
+  {
+    "id": 9,
+    "name": "Melasma 2"
+  },
+  {
+    "id": 10,
+    "name": "Apple formula"
+  },
+  {
+    "id": 11,
+    "name": "Peach formula"
+  },
+  {
+    "id": 12,
+    "name": "Orange formula"
+  },
+  {
+    "id": 13,
+    "name": "Melasma 3"
+  },
+  {
+    "id": 14,
+    "name": "Anti-aging 1"
+  },
+  {
+    "id": 15,
+    "name": "Anti-aging 2"
+  },
+  {
+    "id": 16,
+    "name": "Seborrhea 1"
+  },
+  {
+    "id": 17,
+    "name": "Pseudofolliculitis"
+  },
+  {
+    "id": 18,
+    "name": "Pityriasis alba"
+  },
+  {
+    "id": 19,
+    "name": "Acne: pregnant"
+  },
+  {
+    "id": 20,
+    "name": "PIH: actively inflamed"
+  },
+  {
+    "id": 21,
+    "name": "Xerosis/Eczema"
+  },
+  {
+    "id": 22,
+    "name": "Acne: aggressive"
+  },
+  {
+    "id": 23,
+    "name": "Anti-oxidant"
+  },
+  {
+    "id": 24,
+    "name": "Anti-aging 3"
+  },
+  {
+    "id": 25,
+    "name": "Anti-aging 4"
+  },
+  {
+    "id": 26,
+    "name": "Pear formula"
+  },
+  {
+    "id": 27,
+    "name": "Grape formula"
+  },
+  {
+    "id": 28,
+    "name": "Melasma 4"
+  },
+  {
+    "id": 29,
+    "name": "Rosacea"
+  },
+  {
+    "id": 30,
+    "name": "Keratosis pilaris"
+  },
+  {
+    "id": 31,
+    "name": "Melasma 5"
+  },
+  {
+    "id": 32,
+    "name": "Seborrhea 2"
+  }
+]
