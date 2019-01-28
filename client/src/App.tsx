@@ -1,15 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-import { PatientForm } from './components/PatientForm';
+import { Form } from './components/Form';
+import { patientStore, recipeStore } from './store';
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <PatientForm />
-      </div>
-    );
-  }
-}
+const App: React.FunctionComponent<{}> = _ => (
+  <Form patientStore={patientStore} recipeStore={recipeStore} />
+);
 
 export default App;
