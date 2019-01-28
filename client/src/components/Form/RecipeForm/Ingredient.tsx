@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Input, Select } from './Field';
+import { Input, Select } from '../../Field';
 
 type IngredientProps = {
   id: string;

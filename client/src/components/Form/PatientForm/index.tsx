@@ -2,8 +2,8 @@ import './PatientForm.scss';
 
 import React from 'react';
 
-import { Field, Input, Select } from '../Field';
-import { Ingredient } from '../Ingredient';
+import { Field, Input, Select } from '../../Field';
+import { Ingredient } from '../RecipeForm/Ingredient';
 
 export const PatientForm: React.FunctionComponent = _ => (
   <form onSubmit={e => e.preventDefault()} className="patientForm">
