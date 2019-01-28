@@ -1,0 +1,15 @@
+.recipe-form {
+  background-color: #eeeeee;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  display: grid;
+  grid-gap: 1rem;
+  padding: 2rem;
+
+  > .field {
+    input,
+    select {
+      background-color: #eeeeee;
+    }
+  }
+}

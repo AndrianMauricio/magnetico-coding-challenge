@@ -1,8 +1,10 @@
+import './RecipeForm.scss';
+
 import { observer } from 'mobx-react';
 import { find, propEq } from 'ramda';
 import React, { Component } from 'react';
 
-import { allIngredients, RecipeStore } from '../../../store/recipeStore';
+import { allIngredients, Ingredient, RecipeStore } from '../../../store/recipeStore';
 import { Field, Select } from '../../Field';
 import { IngredientField } from './IngredientField';
 
