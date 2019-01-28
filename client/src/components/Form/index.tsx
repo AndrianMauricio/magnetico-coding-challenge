@@ -5,6 +5,7 @@ import React, { Component } from 'react';
 
 import { PatientStore } from '../../store/patientStore';
 import { RecipeStore } from '../../store/recipeStore';
+import { GeneratedRecipe } from './GeneratedRecipe';
 import { PatientForm } from './PatientForm';
 import { RecipeForm } from './RecipeForm';
 
@@ -62,7 +63,12 @@ export const Form = observer(
           {this.formError.get() !== "" && (
             <div className="form-error">{this.formError.get()}</div>
           )}
-          {this.recipeGenerated.get() && <div>Generated Recipe</div>}
+          {this.recipeGenerated.get() && (
+            <GeneratedRecipe
+              patientStore={patientStore}
+              recipeStore={recipeStore}
+            />
+          )}
         </>
       );
     }
