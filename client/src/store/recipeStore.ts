@@ -1,7 +1,9 @@
 import { action, observable } from 'mobx';
-import { assoc, dissoc, pathOr, prop } from 'ramda';
+import { assoc, dissoc, find, forEach, pathOr, prop, propEq } from 'ramda';
 import uniqid from 'uniqid';
 
+import allFormulations from './data/formulations.json';
+import allRecipePresets from './data/formulations_ingredients.json';
 import allIngredients from './data/ingredients.json';
 
 export { allIngredients };
@@ -63,6 +65,26 @@ export class RecipeStore {
     this.ingredients = assoc(id, updatedAmount, this.ingredients);
   }
 
+  @action setRecipePreset(presetId: number) {
+    const newIngredientsList: {
+      [id: string]: {
+        data: Ingredient;
+        amount: number;
+      };
+    } = {};
+
+    const selectedPreset = find(propEq("id", presetId), this.recipePresets);
+
+    forEach(ingredient => {
+      newIngredientsList[uniqid()] = {
+        data: ingredient.data!,
+        amount: ingredient.amount,
+      };
+    }, selectedPreset!.ingredients);
+
+    this.ingredients = newIngredientsList;
+  }
+
   trimAmount = (amount: number, ingredient: Ingredient) => {
     const { maximum_percentage, minimum_percentage } = ingredient;
 
@@ -70,6 +92,31 @@ export class RecipeStore {
     if (amount < minimum_percentage) return minimum_percentage;
     return amount;
   };
+
+  get recipePresets() {
+    return [
+      {
+        id: 0,
+        name: "No preset",
+        ingredients: [],
+      },
+      ...allFormulations.map(recipe => {
+        const presetIngredients = allRecipePresets.filter(
+          preset => preset.formulation_id === recipe.id
+        );
+
+        const ingredients = presetIngredients.map(ingredient => ({
+          data: find(propEq("id", ingredient.ingredient_id), allIngredients),
+          amount: ingredient.percentage,
+        }));
+
+        return {
+          ...recipe,
+          ingredients,
+        };
+      }),
+    ];
+  }
 }
 
 export const recipeStore = new RecipeStore();
