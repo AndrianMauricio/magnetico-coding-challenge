@@ -1,5 +1,3 @@
-import './RecipeForm.scss';
-
 import { observer } from 'mobx-react';
 import { find, propEq } from 'ramda';
 import React, { Component } from 'react';
@@ -38,6 +36,12 @@ export const RecipeForm = observer(
       recipeStore.removeIngredient(id);
     };
 
+    setPreset = (e: React.FormEvent<HTMLSelectElement>) => {
+      const { recipeStore } = this.props;
+      const presetId = parseInt((e.target as HTMLSelectElement).value);
+      recipeStore.setRecipePreset(presetId);
+    };
+
     render() {
       const { recipeStore } = this.props;
       return (
@@ -45,11 +49,11 @@ export const RecipeForm = observer(
           <Select
             id="preset"
             label="Select a preset"
-            options={[
-              { value: "preset1", label: "Preset 1" },
-              { value: "preset2", label: "Preset 2" },
-              { value: "preset3", label: "Preset 3" },
-            ]}
+            options={recipeStore.recipePresets.map(preset => ({
+              value: preset.id,
+              label: preset.name,
+            }))}
+            onChange={this.setPreset}
           />
           <Field>
             <label>Or add an ingredient: </label>
